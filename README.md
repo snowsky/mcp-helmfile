@@ -2,6 +2,9 @@
 
 A FastMCP server for executing Helmfile commands through the Model Context Protocol (MCP). This server provides a standardized interface for managing Helmfile operations, allowing AI assistants to help with Helmfile deployments, configurations, and troubleshooting.
 
+![Sync Helmfile](examples/sync_helmfile.png)
+![List Helmfile](examples/list_helmfile.png)
+
 ## Key Features
 
 - **Command Execution**: Execute any Helmfile command with proper validation and error handling
