@@ -33,15 +33,6 @@ cd mcp-helmfile
 uv pip install -e .
 ```
 
-## Configuration
-
-The server can be configured through environment variables:
-
-| Environment Variable | Description | Default |
-|---------------------|-------------|---------|
-| `HELMFILE_MCP_TIMEOUT` | Default timeout for commands (seconds) | `300` |
-| `HELMFILE_MCP_TRANSPORT` | Transport protocol to use ("stdio" or "sse") | `stdio` |
-
 ## Claude Desktop App Configuration
 
 To configure the Claude desktop app to work with the MCP servers, you can use the following settings in your `claude_desktop_config.json` file:
